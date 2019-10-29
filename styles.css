@@ -10,16 +10,10 @@
 }
 .camhead{
     font-size: 60px;
+    font-weight: bolder;
     
     
-}
-.top-nav{
-    display: flex;
-    justify-content: flex-end;
-    color: #B26700;
     
-    
-
 }
 .lancelot{
     margin: 1em;
@@ -36,11 +30,22 @@
    
     
 }
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
 .plan{
     margin: 1em;
+    color: black;
+    
 }
 .visit {
     margin: 1em;
+   
 }
 .store {
     margin: 1em;
@@ -150,4 +155,114 @@
 }
 .camelot-text{
     font-size: 20px;
+}
+.knight{
+    display: flex;
+}
+.knightpic{
+    width: 450px;
+    height: 400px; 
+    align-self: flex-end;
+    box-shadow:3px 3px lightgray;
+}
+.knightParagraph {
+    display:flex;
+    flex-direction: column;
+    margin: 2em;
+    justify-content: center;
+    width: 700px;
+}
+.round-table{
+    color: #FFC539;
+    font-size: 30px;
+}
+.be-knight {
+    font-size: 35px;
+    font-weight: bold;
+}
+.knight-text{
+    font-size: 20px; 
+}
+@media (max-width: 500px){
+    *{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    title{
+        display: none;
+    }
+
+    .midNav{
+        width: 100%;
+        position: relative;
+    }
+    .nav {
+        position: relative;
+        text-align: center;
+    }
+    .blue-box{
+       margin: 1em;
+        width: 450px;
+        height: 150px;
+        order: 1;
+    }
+    .dragons{
+        font-size: 24px;
+        width: 300px;
+      
+    }
+    .info {
+        font-size: 15px;
+
+    }
+    .dragon {   
+        width: 450px;
+        margin: 1em; 
+    }
+    .top-container {
+        display: flex;
+        
+    }
+    .bottom-container{
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .orange-box {
+        margin: 1em;
+        width: 450px;
+        height: 150px;
+    }
+    .castle-text{
+        font-size: 24px;
+
+    }
+    .oranges{
+        margin: 1em;
+        width: 450px;
+    }
+    .camelot {
+      margin: 0 auto;
+    }
+    .ticket{
+        font-size: 15px;
+    }
+    .middle-castle{
+        width: 450px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .camParagraph{
+        width: 450px;
+    }
+    .knight-text{
+        width: 450px;
+    }
+    .knightpic{
+        order: -1;
+    }
+    .tickets{
+        font-size: 15px;
+    }
 }

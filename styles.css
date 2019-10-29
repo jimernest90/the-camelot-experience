@@ -1,13 +1,24 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
+.midNav{
+   position: fixed;
+   top: 0;
+   background-color: white;
+   width: 100%;
+
+}
+.camhead{
     font-size: 60px;
+    
     
 }
 .top-nav{
     display: flex;
     justify-content: flex-end;
+    color: #B26700;
+    
+    
 
 }
 .lancelot{
@@ -19,7 +30,11 @@ h1{
 .nav{
     display: flex;
     justify-content: flex-start;
-
+    position: fixed;
+    background-color: white;
+    width: 100%;
+   
+    
 }
 .plan{
     margin: 1em;
@@ -32,6 +47,8 @@ h1{
 }
 .top-container {
     display: flex;
+    margin-top: 4em;
+    
 }
 .bottom-container {
     display: flex;
@@ -41,40 +58,96 @@ h1{
     background-color: #161032;
     width: 100%;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow:3px 3px lightgray;
+    
+}
+.blueParagraph{
+    width: 500px;
+    align-self: center;
+    
+}
+.castleParagraph{
+    width: 500px;
+    align-self: center;
+
 }
 .orange-box{
     background-color:#E06D06;
     height: 300px; 
-    width: 100%;
-    
-    
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow:3px 3px lightgray;    
 }
 .oranges {
     flex: 1;
     height: 300px;
     width: 550px;
     order: -1;
+    box-shadow:3px 3px lightgray;
     
 }
 .castle-text{
-    font-size: 30px;
+    font-size: 40px;
     color: white;
 }
 .tickets{
-    font-size: 15px;
+    font-size: 25px;
     color: white;
+    align-self: center;
+    margin: 1em;
 
 }
 .dragon {
     height: 300px;
     width: 550px;
+    box-shadow:3px 3px lightgray;
     
 }
 .dragons {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
 }
 .info{
-    font-size: 15px;
+    font-size: 25px;
     color: white;
+    margin: 1em;
+    align-self: center;
+}
+.camelot {
+    display: flex;
+}
+.middle-castle {
+    height: 450px;
+    width: 450px;
+    order: -1;
+    margin: 1em;
+    box-shadow:3px 3px lightgray;
+}
+.in-camelot {
+    order: 1;
+}
+.camParagraph {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    justify-content: center;
+    width: 700px;
+}
+.in-camelot {
+    font-size: 30px;
+    order: -1;
+    color: #FFC539;
+}
+.do-camelot{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.camelot-text{
+    font-size: 20px;
 }

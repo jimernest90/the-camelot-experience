@@ -17,16 +17,19 @@
 }
 @keyframes changeColor{
     0%{
-        color: black
+        color: #e8b010;
     }
     15%{
         color: #b26700;
     }
     25%{
-        color: #161032;
+        color: #dba818;
     }
     30%{
-        color: ;
+        color: #fcba03;
+    }
+    40%{
+        color: #c4930a;
     }
     50%{
         color: #faff81
@@ -37,12 +40,6 @@
     100%{
         color: #e06d06;
     }
-}
-.lancelot{
-    margin: 1em;
-}
-.cam-rewards{
-    margin: 1em;
 }
 .nav{
     display: flex;
@@ -215,9 +212,10 @@ a:visited {
     margin: 1em;
     cursor: pointer;
     transition: all .6s ease-in-out;
+    text-align: center;
 }
 .back:hover{
-    animation: changeColor 1s infinite;    
+    animation: changeColor 2s infinite;    
 }
 .tickets{
     font-size: 25px;
@@ -228,7 +226,7 @@ a:visited {
 
 }
 .tickets:hover{
-    animation: changeColor 1s infinite;
+    animation: changeColor 2s infinite;
 }
 .dragon {
     height: 300px;
@@ -248,7 +246,7 @@ a:visited {
     align-self: center;
 }
 .info:hover{
-    animation: changeColor 1s infinite;
+    animation: changeColor 2s infinite;
 }
 .go-back{
     display: none;
@@ -259,7 +257,7 @@ a:visited {
     color: white;
 }
 .go-back:hover{
-    animation: changeColor 1s infinite;
+    animation: changeColor 2s infinite;
 }
 .camelot {
     display: flex;

@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Crete Round', serif;
 }
 .midNav{
    position: fixed;
@@ -53,6 +53,9 @@ a:link {
     transition: all .6s ease-in-out; 
     
 }
+a:active{
+    color: black;
+}
 a:visited {
     color: black;
 }
@@ -62,16 +65,14 @@ a:visited {
     
 }
 .plan:hover{
-    color: #b26700;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 .visit {
     margin: 1em;
    
 }
 .visit:hover{
-    color: #b26700;
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 .store {
     margin: 1em;
@@ -148,12 +149,10 @@ a:visited {
 }
 .information{
     display: none;
-    color:black;
+    color:white;
     align-self: center;
     width: 550px;
     font-size: 27px;
-    background: #ffffff;
-    opacity:.5;
     border-radius:5px 5px 5px 5px;
 }
 .blueParagraph{
@@ -206,6 +205,10 @@ a:visited {
     font-size: 25px;
     margin: 1em;
     cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+.back:hover{
+    animation: changeColor 2s infinite;    
 }
 .tickets{
     font-size: 25px;
@@ -214,6 +217,9 @@ a:visited {
     margin: 1em;
     cursor: pointer;
 
+}
+.tickets:hover{
+    animation: changeColor 2s infinite;
 }
 .dragon {
     height: 300px;
@@ -232,6 +238,9 @@ a:visited {
     margin: 1em;
     align-self: center;
 }
+.info:hover{
+    animation: changeColor 2s infinite;
+}
 .go-back{
     display: none;
     align-self: center;
@@ -239,6 +248,9 @@ a:visited {
     margin: 1em;
     cursor: pointer;
     color: white;
+}
+.go-back:hover{
+    animation: changeColor 2s infinite;
 }
 .camelot {
     display: flex;
@@ -250,9 +262,6 @@ a:visited {
     margin: 1em;
     box-shadow:3px 3px lightgray;
     border-radius: 5px 5px 5px 5px;
-}
-.middle-castle:hover{
-    opacity: 0.5;
 }
 .in-camelot {
     order: 1;
@@ -287,10 +296,6 @@ a:visited {
     box-shadow:3px 3px lightgray;
     border-radius: 5px 5px 5px 5px;
 }
-.knightpic:hover {
-    opacity: 0.5;
-    
-}
 .knightParagraph {
     display:flex;
     flex-direction: column;
@@ -308,6 +313,12 @@ a:visited {
 }
 .knight-text{
     font-size: 20px; 
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    background-color: #FFC539;
 }
 @media (max-width: 500px){
     *{
@@ -329,7 +340,8 @@ a:visited {
         text-align: center;
     }
     .blue-box{
-       margin: 1em;
+        flex-direction: row;
+        margin: 1em;
         width: 450px;
         height: 150px;
         order: 1;
@@ -413,5 +425,17 @@ a:visited {
     .modal-content{
         width:35%;
         
+    }
+    .information{
+        font-size: 18px;
+        align-self: flex-start;
+        width: 300px;
+        height: 20px;
+        margin: 1em;
+    }
+    .go-back{
+        width: 150px;
+        height: 17px;
+        font-size: 15px;
     }
 }

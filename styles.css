@@ -19,8 +19,14 @@
     0%{
         color: black
     }
+    15%{
+        color: #b26700;
+    }
     25%{
         color: #161032;
+    }
+    30%{
+        color: ;
     }
     50%{
         color: #faff81
@@ -50,7 +56,7 @@
 }
 a:link {
     text-decoration: none;
-    transition: all .6s ease-in-out; 
+     
     
 }
 a:active{
@@ -65,6 +71,7 @@ a:visited {
     
 }
 .plan:hover{
+    transition: all .6s ease-in-out;
     transform: scale(1.1);
 }
 .visit {
@@ -72,12 +79,14 @@ a:visited {
    
 }
 .visit:hover{
+    transition: all .6s ease-in-out;
     transform: scale(1.1);
 }
 .store {
     margin: 1em;
 }
 .store:hover{
+    transition: all .6s ease-in-out;
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -188,7 +197,7 @@ a:visited {
     display: none;
     height: 300px;
     width: 550px;
-    align-self: flex-start;
+    align-self: center;
     font-size: 30px;
     margin: 1em;
 
@@ -201,14 +210,14 @@ a:visited {
     display: none;
     height: 300px;
     width: 550px;
-    align-self: flex-start;
+    align-self: center;
     font-size: 25px;
     margin: 1em;
     cursor: pointer;
     transition: all .6s ease-in-out;
 }
 .back:hover{
-    animation: changeColor 2s infinite;    
+    animation: changeColor 1s infinite;    
 }
 .tickets{
     font-size: 25px;
@@ -219,7 +228,7 @@ a:visited {
 
 }
 .tickets:hover{
-    animation: changeColor 2s infinite;
+    animation: changeColor 1s infinite;
 }
 .dragon {
     height: 300px;
@@ -239,7 +248,7 @@ a:visited {
     align-self: center;
 }
 .info:hover{
-    animation: changeColor 2s infinite;
+    animation: changeColor 1s infinite;
 }
 .go-back{
     display: none;
@@ -250,7 +259,7 @@ a:visited {
     color: white;
 }
 .go-back:hover{
-    animation: changeColor 2s infinite;
+    animation: changeColor 1s infinite;
 }
 .camelot {
     display: flex;

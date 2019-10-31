@@ -1,6 +1,9 @@
 *{
     font-family: 'Crete Round', serif;
 }
+body{
+    background-color: #f2f2f0;
+}
 .midNav{
    position: fixed;
    top: 0;

@@ -1,5 +1,5 @@
 # The Camelot experience
-![](img/website.gif)
+![](img/website.gif)<br>
 The camelot experience is supposed to simulate a website for family vacations. However, it is set in the fictional Camelot.<br>
 It mimics the excursion family ticket prices i.e the zoo, museums, etc. 
 ### The Technologies

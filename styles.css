@@ -327,12 +327,13 @@ footer{
     height: 25px;
     background-color: #FFC539;
 }
-@media (max-width: 500px){
+@media (max-width: 420px){
     *{
         display: flex;
         flex-wrap: wrap;
         margin: auto;
         flex-direction: column;
+        width: auto;
     }
     title{
         display: none;
@@ -427,7 +428,7 @@ footer{
         
     }
     .mead{
-        width: 95%;
+        width: 99%;
     }
     .modal-content{
         width:35%;

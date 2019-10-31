@@ -9,3 +9,4 @@ I used equal parts html and css for this project. A little javascript used as we
 The changing of the colors on the title and when you hover over a specific clickable portion of the page was all done in css. The buttons on the nav bar also change size when you hover over them.<br>
 I also made the nav bar fixed so whenever you scroll down the page, the nav bar follows you. I did this in css.<br>
 The event handlers(clicks) I did in javascript. I also was able to create the modal in html and css. The functionality is javascript.
+Here is a link to the site <a href='https://jimernest90.github.io/the-camelot-experience/'> here </a>

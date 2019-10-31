@@ -1,12 +1,19 @@
 *{
     font-family: 'Crete Round', serif;
+    padding: 0;
+    margin: 0;
 }
 body{
     background-color: #f2f2f0;
 }
+.search-bar{
+    position: fixed;
+    border-radius: 5px;
+}
 .midNav{
-   position: fixed;
    top: 0;
+   position: fixed;
+   flex-direction: row;
    background-color: white;
    width: 100%;
    z-index: 999;
@@ -53,6 +60,18 @@ body{
     z-index: 999;
     font-size: 20px;
     
+}
+.sword{
+   width: 40px;
+   height: 40px;
+   animation: changePosition 2s infinite;
+   
+}
+
+@keyframes changePosition {
+    50%{
+        transform: translateX(-4px);
+    }
 }
 a:link {
     text-decoration: none;
@@ -449,5 +468,8 @@ footer{
         width: 150px;
         height: 17px;
         font-size: 15px;
+    }
+    .sword{
+        display: none;
     }
 }

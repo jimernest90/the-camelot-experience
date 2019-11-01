@@ -6,10 +6,6 @@
 body{
     background-color: #f2f2f0;
 }
-.search-bar{
-    position: fixed;
-    border-radius: 5px;
-}
 .midNav{
    top: 0;
    position: fixed;

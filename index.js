@@ -49,5 +49,17 @@ window.onclick = function(e) {
         modal.style.display ='none'
     }
 }
+// let plan = document.querySelector('.plan')
+// let camelot = document.querySelector('.midNav')
+// let sword = document.querySelector('.sword')
+
+// plan.onmouseover = function(){
+
+//     sword.style.display ='none'
+// }
+// camelot.onmouseover = function(){
+
+//     sword.style.display ='block'
+// }
 
 

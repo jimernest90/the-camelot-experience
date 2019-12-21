@@ -4,6 +4,7 @@
     margin: 0;
 }
 body{
+    overflow-x: hidden;
     background-color: #f2f2f0;
 }
 .midNav{

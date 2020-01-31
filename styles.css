@@ -464,14 +464,15 @@ footer{
         
     }
     .mead{
-        width:10em;
-        height: 8em;
+        width:8em;
+        height: 6em;
         
         
     }
     .modal-content{
-        width:10em;
-        height: 12em;
+        width:8em;
+        height: 10em;
+        padding: 0;
         
         
     }

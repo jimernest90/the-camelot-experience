@@ -472,7 +472,7 @@ footer{
     .modal-content{
         width:10em;
         height: 12em;
-        z-index: 1000;
+        
         
     }
     .modal{
@@ -494,6 +494,6 @@ footer{
         display: none;
     }
     .midNav{
-        z-index: inherit;
+        z-index: 1;
     }
 }

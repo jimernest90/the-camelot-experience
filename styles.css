@@ -4,7 +4,6 @@
     margin: 0;
 }
 body{
-    overflow-x: hidden;
     background-color: #f2f2f0;
 }
 .midNav{
@@ -351,10 +350,13 @@ footer{
     *{
         display: flex;
         flex-wrap: wrap;
-        margin: auto;
+        /* margin: auto; */
         flex-direction: column;
-        width: auto;
-        overflow: hidden;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    body{
+        width: 100%;
     }
     title{
         display: none;
@@ -363,6 +365,7 @@ footer{
     .midNav{
         width: 100%;
         position: relative;
+        text-align: center;
     }
     .nav {
         position: relative;
@@ -371,13 +374,15 @@ footer{
     .blue-box{
         flex-direction: row;
         margin: 1em;
-        width: 450px;
+        width: 100vw;
         height: 150px;
         order: 1;
+        margin-left: 0%;
     }
     .dragons{
         font-size: 24px;
         width: 300px;
+        margin-left: 0%;
       
     }
     .info {
@@ -387,6 +392,7 @@ footer{
     .dragon {   
         width: 450px;
         margin: 1em; 
+        margin-left: 0%;
     }
     .top-container {
         display: flex;
@@ -401,6 +407,7 @@ footer{
         margin: 1em;
         width: 450px;
         height: 150px;
+        margin-left: 0%;
     }
     .castle-text{
         font-size: 24px;
@@ -408,7 +415,8 @@ footer{
     }
     .oranges{
         margin: 1em;
-        width: 450px;
+        width: 100vw;
+        margin-left: 0%;
     }
     .camelot {
       margin: 0 auto;
@@ -417,18 +425,23 @@ footer{
         font-size: 15px;
     }
     .middle-castle{
-        width: 450px;
+        width: 100vw;
         height: 400px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        margin-left: 0%;
     }
     .camParagraph{
-        width: 450px;
+        width: 23rem;
+        margin-left: 7%;
     }
     .knight-text{
-        width: 450px;
+        width: 23rem;
+        margin-left: 0%;
     }
     .knightpic{
         order: -1;
+        margin: auto;
+        margin-left: 0%;
     }
     .tickets{
         font-size: 15px;
@@ -446,6 +459,7 @@ footer{
     }
     .dragons{
         align-self: flex-start;
+        margin-left: 0%;
         
     }
     .mead{

@@ -474,6 +474,9 @@ footer{
         z-index: 1000;
         
     }
+    .modal{
+        z-index: 1000;
+    }
     .information{
         font-size: 18px;
         align-self: flex-start;
